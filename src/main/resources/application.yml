@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: teligen-microservice-frontend-sample
+server:
+  port: 8081
+logging:
+  file: /tmp/${spring.application.name}.log
+management:
+  security:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/

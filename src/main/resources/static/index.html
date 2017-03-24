@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+<title>Angular前端微服务例子</title>
+<link href="wro/css/angular-bootstrap.css" rel="stylesheet">
+</head>
+
+<body ng-app="app">
+	<div class="home-section">
+		<ul class="nav nav-tabs">
+			<li role="presentation"><a href="#/">主页</a></li>
+			<li role="presentation"><a href="#/users">用户列表</a></li>
+			<li role="presentation"><a href="#/add_user">添加用户</a></li>
+		</ul>
+	</div>
+	<div ng-view></div>
+	<script src="wro/js/angular-bootstrap.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controller.js"></script>
+</body>
+</html>
